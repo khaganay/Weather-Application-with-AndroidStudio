@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#242343">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:id="@+id/weatherIcon"
+        android:layout_marginTop="80dp">
+    </ImageView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:text="Unknown Humidity"
+            android:textColor="@color/white"
+            android:textSize="25sp">
+        </TextView>
+        <TextView
+            android:id="@+id/temperatureF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:text="-°F"
+            android:textColor="@color/white"
+            android:textSize="50sp">
+        </TextView>
+        <TextView
+            android:id="@+id/temperatureK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:text="-°K"
+            android:textColor="@color/white"
+            android:textSize="50sp">
+        </TextView>
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30dp"
+            android:text="-°C"
+            android:textColor="@color/white"
+            android:textSize="50sp">
+        </TextView>
+        <TextView
+            android:id="@+id/weatherCondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30sp"
+            android:text="Unknown Condition"
+            android:textColor="@color/white"
+            android:textSize="30sp">
+        </TextView>
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="30sp"
+            android:text="Unknown Location"
+            android:textColor="@color/white"
+            android:textSize="40sp">
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
